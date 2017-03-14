@@ -22,3 +22,8 @@ The history of the branch structure can be visualized using the diagrams. If you
 changes it is called "detached HEAD" and it will not impact any existing branch. Using the diagrams you can checkout
 and create a new branch for the experimental changes in the same time, using "git checkout -b new_branch" command.
 Otherwise, if you checkout to another branch, you will discard the commit made earlier.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging two branches is one branch with all the commits from the previous ordered by time and date. The
+diagram is showing the two branches with every commit to represent the merging of the branches in the last commit.
+ 
