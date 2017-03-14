@@ -16,3 +16,9 @@ What are some situations when branches would be helpful in keeping your history 
 Branches would be helpful when you want to add a new feature which will need some testing, and in the same time you
 want to keep your application working. Branches can be used to develop and test the new feature, in one branch named
 "New feature", and keep the normal version of your app in the master branch.
+
+How do the diagrams help you visualize the branch structure?
+The history of the branch structure can be visualized using the diagrams. If you make a commit for some experimental
+changes it is called "detached HEAD" and it will not impact any existing branch. Using the diagrams you can checkout
+and create a new branch for the experimental changes in the same time, using "git checkout -b new_branch" command.
+Otherwise, if you checkout to another branch, you will discard the commit made earlier.
