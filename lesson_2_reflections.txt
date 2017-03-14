@@ -26,4 +26,8 @@ Otherwise, if you checkout to another branch, you will discard the commit made e
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result of merging two branches is one branch with all the commits from the previous ordered by time and date. The
 diagram is showing the two branches with every commit to represent the merging of the branches in the last commit.
- 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros: Automatic merging is a much faster way to include a new feature into the master branch. Cons: If the changes
+occur is the same lines of code in both branches there will be a conflict when merging is done automatic, and it must
+be solved, then merge manually.
