@@ -5,3 +5,10 @@ Why might you want to always pull changes manually rather than having Git automa
 remote repository?
 When you work in a team on a remote repository you may want to pull a branch manually after you check the code before
 adding the latest commits. This way you can avoid errors made in the new commits.
+
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+Forks are used to copy a repository from a Github account to another. The original repository won't allow to push
+modifications without permission, so you can use a forked repository to add changes. Clones are copies of repositories
+from Github to local computer. When you work on a project you can clone a repository, work on a local computer and then
+push the local repository to Github. Branches are different paths of commits of the same repository. Branches are used
+when work is done by collaborating, or when a new feature is added but is not commited to the master branch.
