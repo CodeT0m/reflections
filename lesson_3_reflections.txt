@@ -12,3 +12,8 @@ modifications without permission, so you can use a forked repository to add chan
 from Github to local computer. When you work on a project you can clone a repository, work on a local computer and then
 push the local repository to Github. Branches are different paths of commits of the same repository. Branches are used
 when work is done by collaborating, or when a new feature is added but is not commited to the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+The last known state of the remote which is stored locally will help you keep track of your commits. The repository on
+Github will contain commits from collaboration which will need to be merged with your commits, after conflicts are
+resolved.
