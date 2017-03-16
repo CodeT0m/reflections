@@ -17,3 +17,10 @@ What is the benefit of having a copy of the last known state of the remote store
 The last known state of the remote which is stored locally will help you keep track of your commits. The repository on
 Github will contain commits from collaboration which will need to be merged with your commits, after conflicts are
 resolved.
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+Collaborating without using Git or Github will require sending back and forth files between members of the team. It
+will be harder to track changes made by members working on the same files. It will be also, time consuming, when one
+member is workimg at one file and assuming that file is locked to anyone else. Otherwise it will require that changes
+made by two or more members in the same time will be merged in a way to avoid conflicts. I cannot find any argument to
+say what would be easier.
