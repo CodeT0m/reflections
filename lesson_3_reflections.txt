@@ -24,3 +24,9 @@ will be harder to track changes made by members working on the same files. It wi
 member is workimg at one file and assuming that file is locked to anyone else. Otherwise it will require that changes
 made by two or more members in the same time will be merged in a way to avoid conflicts. I cannot find any argument to
 say what would be easier.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each
+approach have?
+Changes made in a separate branch can help you collaborate better with your team. You can create a pull request for
+your commit in Github and get your commit validated by other team member. After that your branch can be merged in the
+master, without any errors. Changes made directly in master are faster, but harder to track by other team members.
